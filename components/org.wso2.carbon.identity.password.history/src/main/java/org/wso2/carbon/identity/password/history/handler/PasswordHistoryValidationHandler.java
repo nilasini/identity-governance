@@ -220,6 +220,6 @@ public class PasswordHistoryValidationHandler extends AbstractEventHandler imple
     @Override
     public Map<String, String> getPropertyTypeMapping() {
 
-        return new HashMap<>();
+        return Collections.emptyMap();
     }
 }

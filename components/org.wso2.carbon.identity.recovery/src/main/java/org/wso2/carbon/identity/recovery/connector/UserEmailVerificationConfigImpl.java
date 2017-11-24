@@ -115,7 +115,7 @@ public class UserEmailVerificationConfigImpl implements IdentityConnectorConfig 
     @Override
     public Map<String, String> getPropertyTypeMapping() {
 
-        return new HashMap<>();
+        return Collections.emptyMap();
     }
 
 }

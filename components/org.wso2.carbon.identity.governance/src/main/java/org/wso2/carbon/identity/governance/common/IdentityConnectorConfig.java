@@ -43,6 +43,10 @@ public interface IdentityConnectorConfig {
 
     Map<String, String> getDefaultPropertyValues (String[] propertyNames, String tenantDomain) throws IdentityGovernanceException;
 
+    /**
+     * Give the endpoint's input fields.
+     * @return A map with key as endpoint and value as input fields name.
+     */
     Map<String, String> getPropertyTypeMapping();
 
 }

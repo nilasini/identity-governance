@@ -171,7 +171,6 @@ public class AccountSuspensionNotificationHandler extends AbstractEventHandler i
     public Map<String, String> getPropertyTypeMapping() {
 
         return new HashMap<>();
-
     }
 
     private void startScheduler() {

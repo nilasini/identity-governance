@@ -39,6 +39,7 @@ import org.wso2.carbon.identity.password.policy.internal.IdentityPasswordPolicyS
 import org.wso2.carbon.identity.password.policy.util.Utils;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -257,6 +258,6 @@ public class PasswordPolicyValidationHandler extends AbstractEventHandler implem
     @Override
     public Map<String, String> getPropertyTypeMapping() {
 
-        return new HashMap<>();
+        return Collections.emptyMap();
     }
 }
